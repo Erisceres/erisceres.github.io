@@ -1,0 +1,23 @@
+title: Erisceres
+description: >-
+  Welcome to my personal site built with Jekyll and GitHub Pages!
+baseurl: "" # the subpath of your site, e.g. /blog (leave blank for user/organization sites)
+url: "https://erisceres.github.io" # your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+theme: minima # You can change the theme later if you want
+
+# Exclude these files/folders from the site build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Optional: social links (add your handles or URLs)
+social_links:
+  github: https://github.com/Erisceres
+
+# Optional: show future-dated posts
+future: false
