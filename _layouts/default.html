@@ -1,1 +1,28 @@
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <!-- Add more navigation links as needed -->
+      </nav>
+      <hr>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <hr>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    </footer>
+  </div>
+</body>
+</html>
