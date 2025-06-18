@@ -1,0 +1,80 @@
+/* Import a Google Font (Roboto) as the default */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap');
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 18px;
+  color: #222;
+  background: #f9f9fb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 750px;
+  margin: 2em auto;
+  padding: 1em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.7;
+  margin: 1em 0;
+}
+
+pre, code {
+  background: #f4f4f4;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+nav {
+  margin-bottom: 2em;
+}
+
+nav a {
+  margin-right: 1em;
+  font-weight: 700;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 2em 0;
+}
+
+/* Example of a class for switching fonts mid-text */
+.font-fancy {
+  font-family: 'Pacifico', cursive;
+  color: #B57EDC;
+  font-size: 1.2em;
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 96vw;
+    padding: 0.5em;
+  }
+}

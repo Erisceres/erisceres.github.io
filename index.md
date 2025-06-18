@@ -8,6 +8,8 @@ title: Home
 This is my Jekyll-powered homepage.  
 Feel free to edit this file (`index.md`) to add your own content.
 
+<span class="font-fancy">This is some fancy text!</span>
+
 - 🚀 Powered by [Jekyll](https://jekyllrb.com/)
 - 🌐 Hosted with [GitHub Pages](https://pages.github.com/)
 
